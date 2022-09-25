@@ -47,9 +47,6 @@ function findAboveThreshold(pTemp) {
         }
     }
 
-    above--;
-    below--;
-
     abovePerc = (above/pTemp.length)*100;
     belowPerc = (below/pTemp.length)*100;
 
